@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Startup</title>
+  <style>
+body{
+ background-color:#EAC696;
+}
+
+body {
+  font-family:"Comic Sans MS", cursive;
+  line-height: 1.6;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left:20%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Comic Sans MS", cursive;
+
+
+  --c: linear-gradient(120deg, #4E74A8 0%, #A85C9A 100%);
+  padding-bottom: 0.15em;
+  background: var(--c), var(--c);
+  background-size: 0.3em 0.1em;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  transition: 0.3s linear, background-size 0.3s 0.2s linear;
+}
+
+li a:hover {
+  background-size: 40% 0.1em;
+  background-position: 10% 100%, 90% 100%;
+}
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: #FFF6DC;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.featured-services {
+  padding: 3rem 1rem;
+  background-color: #EAC696;
+  text-align: center;
+}
+
+.featured-services h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1rem;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.service i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.how-it-works {
+  padding: 3rem 1rem;
+  background-color: #FFF6DC;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.step {
+  display: inline-block;
+  width: 22%;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.step i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.client-testimonials {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.client-testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.featured-job-seekers {
+  padding: 3rem 1rem;
+  background-color: #FFF6DC;
+  text-align: center;
+}
+
+.featured-job-seekers h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.job-seeker {
+  display: inline-block;
+  width: 40%;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.job-seeker img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.job-seeker h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">HireMe</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to HireMe</h1>
+    <p>Your Gateway to Hiring Top Tech Talent</p>
+    <a href="#" class="cta-btn">Recruiter</a>
+<a href="login.html" class="cta-btn">Candidate</a>
+  </section>
+
+  <section class="featured-services">
+    <h2>Featured Services</h2>
+    <div class="service">
+      <i class="fas fa-laptop-code"></i>
+      <h3>Hire Top-notch Software Engineers</h3>
+      <p>Find skilled and experienced software engineers to build your dream team.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-briefcase"></i>
+      <h3>Find Skilled Product Managers</h3>
+      <p>Discover product managers with a proven track record of successful product launches.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-flask"></i>
+      <h3>Discover Data Science Experts</h3>
+      <p>Hire data scientists who can turn your data into valuable insights and solutions.</p>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="step">
+      <i class="fas fa-user-plus"></i>
+      <h3>Create an Account</h3>
+      <p>Register your company account on RecruitMe to get started.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-search"></i>
+      <h3>Post Job Openings</h3>
+      <p>Create and publish job postings for your specific requirements.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-users"></i>
+      <h3>Review Candidates</h3>
+      <p>Browse through candidate profiles and shortlist potential hires.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-handshake"></i>
+      <h3>Hire Top Talent</h3>
+      <p>Connect with the best candidates and make successful hires.</p>
+    </div>
+  </section>
+
+  <section class="client-testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <blockquote>
+        "RecruitMe helped us find the perfect software engineer for our team. Highly recommended!"
+      </blockquote>
+      <cite>- John Doe, CEO at TechCo</cite>
+    </div>
+    <div class="testimonial">
+      <blockquote>
+        "Their platform made the hiring process seamless. We hired a fantastic product manager through RecruitMe."
+      </blockquote>
+      <cite>- Jane Smith, HR Manager at StartUpX</cite>
+    </div>
+  </section>
+
+  <section class="featured-job-seekers">
+    <h2>Featured Job Seekers</h2>
+    <div class="job-seeker">
+      <img src="p1.jpg" alt="Job Seeker 1">
+      <h3>John Doe</h3>
+      <p>Software Engineer</p>
+      <p>Experienced in full-stack development with expertise in JavaScript and Python.</p>
+    </div>
+    <div class="job-seeker">
+      <img src="p2.jpg" alt="Job Seeker 2">
+      <h3>Jane Smith</h3>
+      <p>Product Manager</p>
+      <p>Successfully launched multiple products and passionate about user experience.</p>
+    </div>
+  </section>
+
+</body>
+
+</html>

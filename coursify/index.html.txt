@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Startup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">RecruitMe</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to RecruitMe</h1>
+    <p>Your Gateway to Hiring Top Tech Talent</p>
+    <a href="#" class="cta-btn">Get Started</a>
+  </section>
+
+  <section class="featured-services">
+    <h2>Featured Services</h2>
+    <div class="service">
+      <i class="fas fa-laptop-code"></i>
+      <h3>Hire Top-notch Software Engineers</h3>
+      <p>Find skilled and experienced software engineers to build your dream team.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-briefcase"></i>
+      <h3>Find Skilled Product Managers</h3>
+      <p>Discover product managers with a proven track record of successful product launches.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-flask"></i>
+      <h3>Discover Data Science Experts</h3>
+      <p>Hire data scientists who can turn your data into valuable insights and solutions.</p>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="step">
+      <i class="fas fa-user-plus"></i>
+      <h3>Create an Account</h3>
+      <p>Register your company account on RecruitMe to get started.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-search"></i>
+      <h3>Post Job Openings</h3>
+      <p>Create and publish job postings for your specific requirements.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-users"></i>
+      <h3>Review Candidates</h3>
+      <p>Browse through candidate profiles and shortlist potential hires.</p>
+    </div>
+    <div class="step">
+      <i class="fas fa-handshake"></i>
+      <h3>Hire Top Talent</h3>
+      <p>Connect with the best candidates and make successful hires.</p>
+    </div>
+  </section>
+
+  <section class="client-testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <blockquote>
+        "RecruitMe helped us find the perfect software engineer for our team. Highly recommended!"
+      </blockquote>
+      <cite>- John Doe, CEO at TechCo</cite>
+    </div>
+    <div class="testimonial">
+      <blockquote>
+        "Their platform made the hiring process seamless. We hired a fantastic product manager through RecruitMe."
+      </blockquote>
+      <cite>- Jane Smith, HR Manager at StartUpX</cite>
+    </div>
+  </section>
+
+  <section class="featured-job-seekers">
+    <h2>Featured Job Seekers</h2>
+    <div class="job-seeker">
+      <img src="jobseeker1.jpg" alt="Job Seeker 1">
+      <h3>John Doe</h3>
+      <p>Software Engineer</p>
+      <p>Experienced in full-stack development with expertise in JavaScript and Python.</p>
+    </div>
+    <div class="job-seeker">
+      <img src="jobseeker2.jpg" alt="Job Seeker 2">
+      <h3>Jane Smith</h3>
+      <p>Product Manager</p>
+      <p>Successfully launched multiple products and passionate about user experience.</p>
+    </div>
+  </section>
+
+</body>
+
+</html>
